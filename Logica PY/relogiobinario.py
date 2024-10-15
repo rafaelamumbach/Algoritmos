@@ -9,7 +9,7 @@ root.title('Relógio Binário')
 root.geometry("600x320")
 root.maxsize(800, 420)
 root.minsize(800, 420)
-root.configure(background="black")
+root.configure(background="pink")
 
 def get_horas():
     hora_atual = strftime('%H:%M:%S')

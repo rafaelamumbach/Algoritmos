@@ -9,10 +9,10 @@ root.title('Relógio Binário')
 root.geometry("600x320")
 root.maxsize(800, 420)
 root.minsize(800, 420)
-root.configure(background="black")
+root.configure(background="pink")
 
 def get_horas():
-    hora_atual = strftime('%H:%M:%S')
+    hora_atual = strftime+('%H:%M:%S')
     horas.config(text=hora_atual)
     horas_binarias.config(text=get_horasbinarias(hora_atual))
     horas.after(1000, get_horas)
